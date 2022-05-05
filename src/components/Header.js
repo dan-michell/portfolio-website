@@ -1,13 +1,25 @@
 import { IoMdContact } from "react-icons/io";
+import { IoHardwareChipSharp } from "react-icons/io5";
+import { MdComputer } from "react-icons/md";
 import { BsInfoCircle, BsBookHalf } from "react-icons/bs";
 import SidebarIcon from "./SidebarIcon";
 
 function Header() {
   return (
-    <div className="fixed top-0 w-screen m-0 flex justify-around items-center rounded-b-xl bg-gray-900">
-      <SidebarIcon icon={<BsInfoCircle size={32} />} />
+    <div className="w-screen flex justify-around items-center">
+      <p className="font-medium text-gray-200 text-2xl m-3">Dan Michell</p>
+      <SidebarIcon icon={<IoHardwareChipSharp size={36} />} />
+      <ul className="flex items-center">
+        <li className="text-hover  ">About</li>
+        <li className="text-gray-200 text-xl">/</li>
+        <li className="text-hover ">Work</li>
+        <li className="text-gray-200 text-xl">/</li>
+        <li className="text-hover ">Links</li>
+      </ul>
+
+      {/* <SidebarIcon icon={<BsInfoCircle size={32} />} />
       <SidebarIcon icon={<BsBookHalf size={32} />} />
-      <SidebarIcon icon={<IoMdContact size={32} />} />
+      <SidebarIcon icon={<IoMdContact size={32} />} /> */}
     </div>
   );
 }
