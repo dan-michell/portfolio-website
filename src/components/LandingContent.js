@@ -16,7 +16,7 @@ function LandingContent(props) {
       </div>
       <div className="mt-36 flex flex-col items-center">
         <h2 className="text-gray-300 text-2xl font-light italic">Take a look at my work!</h2>
-        <RiArrowDownSLine size={64} className=" text-gray-200" />
+        <RiArrowDownSLine size={64} className="text-gray-200 animate-bounce" />
       </div>
     </div>
   );
