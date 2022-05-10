@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import HeaderTwo from "./components/HeaderTwo";
 import Timeline from "./components/Timeline";
 import LandingContent from "./components/LandingContent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <section className="h-screen w-screen snap-center">
           <h2>Section 4</h2>
         </section>
+        <Footer />
       </div>
     </div>
   );
