@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { TiThMenuOutline } from "react-icons/ti";
+const logo = require("../logo_transparent.png");
 
 function HeaderTwo(props) {
   const [navOpen, setNavOpen] = useState(false);
@@ -8,7 +9,8 @@ function HeaderTwo(props) {
     <nav className=" border-b-[1px] border-gray-600 px-2 sm:px-4 py-2.5 w-[75%] mt-3">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://google.com" className="flex items-center">
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Dan Michell</span>
+          {/* <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Dan Michell</span> */}
+          <img href={logo} />
         </a>
         <button
           type="button"
@@ -56,14 +58,6 @@ function HeaderTwo(props) {
                 className="block py-2 pr-4 pl-3 text-gray-200 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
               >
                 Contact
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://google.com"
-                className="block py-2 pr-4 pl-3 text-gray-200 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
-              >
-                Links
               </a>
             </li>
           </ul>
