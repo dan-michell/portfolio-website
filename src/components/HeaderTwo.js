@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { TiThMenuOutline } from "react-icons/ti";
-const logo = require("../logo_transparent.png");
+import { GoTerminal } from "react-icons/go";
 
 function HeaderTwo(props) {
   const [navOpen, setNavOpen] = useState(false);
@@ -9,8 +8,8 @@ function HeaderTwo(props) {
     <nav className=" border-b-[1px] border-gray-600 px-2 sm:px-4 py-2.5 w-[75%] mt-3">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://google.com" className="flex items-center">
-          {/* <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Dan Michell</span> */}
-          <img href={logo} />
+          <GoTerminal size={40} className="text-gray-300" />
+          <span className="text-xl text-gray-300 ml-3 font-mono">Dan Michell</span>
         </a>
         <button
           type="button"
@@ -35,11 +34,11 @@ function HeaderTwo(props) {
           </svg>
         </button>
         <div className={navOpen ? "w-full md:block md:w-auto" : "hidden w-full md:block md:w-auto"}>
-          <ul className="flex items-center flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+          <ul className="flex items-center flex-col mt-4 md:flex-row md:space-x-8 md:mt-0">
             <li>
               <a
                 href="https://google.com"
-                className="block py-2 pr-4 pl-3 text-gray-200 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+                className="hover:scale-110 transition-all block py-2 pr-4 pl-3 text-gray-200 hover:text-gray-300 md:hover:text-gray-300 md:border-0 md:p-0"
               >
                 About
               </a>
@@ -47,7 +46,7 @@ function HeaderTwo(props) {
             <li>
               <a
                 href="https://google.com"
-                className="block py-2 pr-4 pl-3 text-gray-200 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+                className="hover:scale-110 transition-all block py-2 pr-4 pl-3 text-gray-200 hover:text-gray-300 md:hover:text-gray-300 md:border-0 md:p-0"
               >
                 Work
               </a>
@@ -55,7 +54,7 @@ function HeaderTwo(props) {
             <li>
               <a
                 href="https://google.com"
-                className="block py-2 pr-4 pl-3 text-gray-200 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+                className="hover:scale-110 transition-all block py-2 pr-4 pl-3 text-gray-200 hover:text-gray-300 md:hover:text-gray-300 md:border-0 md:p-0"
               >
                 Contact
               </a>

@@ -3,6 +3,8 @@ import HeaderTwo from "./components/HeaderTwo";
 import Timeline from "./components/Timeline";
 import LandingContent from "./components/LandingContent";
 import Footer from "./components/Footer";
+import About from "./components/About";
+import { useRef } from "react";
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
           </div>
         </section>
         <section className="h-screen w-screen snap-center ">
-          <h2>Section 2</h2>
+          <About />
         </section>
         <section className="h-screen w-screen snap-center">
           <h2>Section 3</h2>
