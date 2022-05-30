@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        wave: "wave 3s infinite",
+        wave: "wave 3.5s infinite",
       },
       keyframes: {
         wave: {

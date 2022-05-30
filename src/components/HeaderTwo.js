@@ -7,10 +7,10 @@ function HeaderTwo(props) {
   return (
     <nav className=" border-b-[1px] border-gray-600 px-2 sm:px-4 py-2.5 w-[75%] mt-3">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="https://google.com" className="flex items-center">
+        <div className="flex items-center">
           <GoTerminal size={40} className="text-gray-300" />
           <span className="text-xl text-gray-300 ml-3 font-mono">Dan Michell</span>
-        </a>
+        </div>
         <button
           type="button"
           className="inline-flex items-center text-sm text-gray-200 rounded-lg md:hidden"
@@ -37,7 +37,7 @@ function HeaderTwo(props) {
           <ul className="flex items-center flex-col mt-4 md:flex-row md:space-x-8 md:mt-0">
             <li>
               <a
-                href="https://google.com"
+                href="#about"
                 className="hover:scale-110 transition-all block py-2 pr-4 pl-3 text-gray-200 hover:text-gray-300 md:hover:text-gray-300 md:border-0 md:p-0"
               >
                 About
@@ -45,7 +45,7 @@ function HeaderTwo(props) {
             </li>
             <li>
               <a
-                href="https://google.com"
+                href="#work"
                 className="hover:scale-110 transition-all block py-2 pr-4 pl-3 text-gray-200 hover:text-gray-300 md:hover:text-gray-300 md:border-0 md:p-0"
               >
                 Work
@@ -53,7 +53,7 @@ function HeaderTwo(props) {
             </li>
             <li>
               <a
-                href="https://google.com"
+                href="#contact"
                 className="hover:scale-110 transition-all block py-2 pr-4 pl-3 text-gray-200 hover:text-gray-300 md:hover:text-gray-300 md:border-0 md:p-0"
               >
                 Contact

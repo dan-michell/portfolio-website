@@ -5,7 +5,7 @@ function LandingContent(props) {
   const [wave, setWave] = useState(true);
 
   return (
-    <div ref={props.landingPageRef} className="flex flex-col items-center h-[100%]">
+    <div className="flex flex-col items-center h-full">
       <div className="w-screen">
         <div
           onMouseEnter={(e) => {
@@ -30,7 +30,9 @@ function LandingContent(props) {
         </div>
       </div>
       <button className="flex items-center justify-center mt-auto mb-3 hover:scale-110 transition-all">
-        <AiOutlineDownCircle size={44} className="text-gray-300" />
+        <a href="#about">
+          <AiOutlineDownCircle size={44} className="text-gray-300" />
+        </a>
       </button>
     </div>
   );
