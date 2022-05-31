@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       animation: {
         wave: "wave 3.5s infinite",
+        fade: "fadeOut 500ms ease-in",
+      },
+      transitionProperty: {
+        "transition-duration": "500ms",
       },
       keyframes: {
         wave: {
@@ -16,6 +20,10 @@ module.exports = {
           "60%": { transform: "rotate(10deg)" },
           "70%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(0deg)" },
+        },
+        fadeOut: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
         },
       },
     },
