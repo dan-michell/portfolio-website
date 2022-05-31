@@ -5,10 +5,7 @@ module.exports = {
     extend: {
       animation: {
         wave: "wave 3.5s infinite",
-        fade: "fadeOut 500ms ease-in",
-      },
-      transitionProperty: {
-        "transition-duration": "500ms",
+        swipe: "swipe 2.5s infinite",
       },
       keyframes: {
         wave: {
@@ -21,12 +18,16 @@ module.exports = {
           "70%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(0deg)" },
         },
-        fadeOut: {
-          "0%": { opacity: 0 },
-          "100%": { opacity: 1 },
+        swipe: {
+          "0%": { transform: "rotate(0deg)" },
+          "15%": { transform: "rotate(28deg)" },
+          "30%": { transform: "rotate(-8deg)" },
+          "50%": { transform: "rotate(0deg)" },
+          "70%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(0deg)" },
         },
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
