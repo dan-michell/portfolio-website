@@ -1,5 +1,6 @@
 import { AiOutlineDownCircle } from "react-icons/ai";
 import { useState } from "react";
+import Links from "./Links";
 
 function LandingContent(props) {
   const [wave, setWave] = useState(false);
@@ -7,7 +8,7 @@ function LandingContent(props) {
   return (
     <div className="flex flex-col items-center h-full">
       <div className="w-screen">
-        <div className="mt-[18vh] ml-[22vw] relative text-gray-200 inline-block">
+        <div className="mt-[16vh] ml-[22vw] relative text-gray-200 inline-block">
           <div
             className={`animate-wave text-7xl w-20 origin-bottom-right absolute top-[-45px] left-[-60px] ${
               wave ? "opacity-100 transition-opacity duration-500" : "opacity-0 transition-opacity duration-700"
@@ -31,6 +32,7 @@ function LandingContent(props) {
             Fullstack Software Engineer with a passion for
             <br /> learning and problem solving.
           </h3>
+          <Links />
         </div>
       </div>
       <button className="flex items-center justify-center mt-auto mb-3 hover:scale-110 transition-all">

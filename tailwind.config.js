@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        wave: "wave 3.5s infinite",
-        swipe: "swipe 2.5s infinite",
+        wave: "wave 3s infinite",
+        swipe: "swipe 2s infinite",
       },
       keyframes: {
         wave: {

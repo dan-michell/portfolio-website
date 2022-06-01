@@ -4,10 +4,17 @@ import { MdOutlineSwipe } from "react-icons/md";
 function Work() {
   return (
     <div className="flex flex-col items-center h-full">
-      <div class="w-[96%] h-[80%] carousel rounded-box bg-opacity-20 bg-slate-900 m-10 text-gray-300">
-        <div class="carousel-item w-full flex items-center justify-center gap-10">
-          <h1 className="text-7xl font-medium">Swipe</h1>
-          <MdOutlineSwipe size={96} className="text-gray-300 animate-swipe origin-bottom" />
+      <div class="w-full h-[100vh] carousel rounded-box bg-opacity-20 text-gray-300">
+        <div class="carousel-item w-full flex flex-col items-center justify-center gap-10">
+          <div>
+            <h1 className="font-medium text-8xl mb-3">My Work.</h1>
+            <h3 className="font-light text-gray-400 text-4xl">Personal and professional projects.</h3>
+          </div>
+
+          <div className="flex justify-center items-center gap-5 mt-10">
+            <h1 className="text-4xl">Take a look...</h1>
+            <MdOutlineSwipe size={86} className="text-gray-300 animate-swipe origin-bottom" />
+          </div>
         </div>
         <div class="carousel-item w-full">2</div>
         <div class="carousel-item w-full">3</div>

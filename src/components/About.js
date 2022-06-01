@@ -5,8 +5,8 @@ function About() {
     <div className="flex flex-col items-center h-full">
       <div className="w-screen">
         <div className="mt-[5%] ml-[10%] text-gray-200 ">
-          <h1 className="font-semibold text-5xl">About me.</h1>
-          <h3 className=" font-light text-gray-400 text-2xl">Who am I? How did I get here? Where am I going?</h3>
+          <h1 className="font-medium text-7xl mb-3">About me.</h1>
+          <h3 className="font-light text-gray-400 text-3xl">Who am I?</h3>
         </div>
       </div>
       <div className="h-full w-screen flex justify-center">

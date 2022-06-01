@@ -2,18 +2,17 @@ import { AiOutlineUpCircle } from "react-icons/ai";
 
 function Contact() {
   return (
-    <div className="flex flex-col items-center h-full border-2 border-white">
-      <div class="text-gray-200 mt-[8%]">
-        <div class="max-w-screen-xl grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 mx-auto text-gray-200 rounded-lg shadow-lg">
-          <div class="flex flex-col justify-between">
-            <div>
-              <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Lets talk about everything!</h2>
-              <div class="text-gray-400 mt-8">
-                Hate forms? Send us an <span class="underline">email</span> instead.
-              </div>
+    <div className="flex flex-col items-center h-full">
+      <div class="text-gray-200 md:mt-[12vh] mt-[4vh]">
+        <div class="max-w-screen-xl grid grid-cols-1 md:grid-cols-2 md:gap-28 md:px-12 lg:px-16">
+          <div class="flex flex-col">
+            <h2 class="text-4xl md:text-7xl font-medium">Contact me!</h2>
+            <div class="text-gray-400 md:mt-5 md:text-2xl mt-2 text-xl">
+              Hate forms? Send me a direct <span class="underline">email</span>
+              <br /> or message me on <span class="underline">linkedin</span>.
             </div>
           </div>
-          <div class="">
+          <div className="mt-3">
             <div>
               <span class="uppercase text-sm font-medium">Full Name</span>
               <input
