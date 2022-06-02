@@ -1,5 +1,6 @@
 import { AiOutlineDownCircle } from "react-icons/ai";
 import { MdOutlineSwipe } from "react-icons/md";
+import Project from "./Project";
 
 function Work() {
   return (
@@ -16,7 +17,9 @@ function Work() {
             <MdOutlineSwipe size={86} className="text-gray-300 animate-swipe origin-bottom" />
           </div>
         </div>
-        <div class="carousel-item w-full">2</div>
+        <div class="carousel-item w-full">
+          <Project />
+        </div>
         <div class="carousel-item w-full">3</div>
         <div class="carousel-item w-full">4</div>
         <div class="carousel-item w-full">5</div>
