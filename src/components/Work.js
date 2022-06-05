@@ -1,6 +1,9 @@
 import { AiOutlineDownCircle } from "react-icons/ai";
 import { MdOutlineSwipe } from "react-icons/md";
-import Project from "./Project";
+import NutribudProj from "./Projects/NutribudProj";
+import SocialNetworkProj from "./Projects/SocialNetworkProj";
+import WorldBankProj from "./Projects/WorldBankProj";
+import GameOfLifeProj from "./Projects/GameOfLifeProj";
 
 function Work() {
   return (
@@ -18,11 +21,17 @@ function Work() {
           </div>
         </div>
         <div class="carousel-item w-full">
-          <Project />
+          <NutribudProj />
         </div>
-        <div class="carousel-item w-full">3</div>
-        <div class="carousel-item w-full">4</div>
-        <div class="carousel-item w-full">5</div>
+        <div class="carousel-item w-full">
+          <SocialNetworkProj />
+        </div>
+        <div class="carousel-item w-full">
+          <WorldBankProj />
+        </div>
+        <div class="carousel-item w-full">
+          <GameOfLifeProj />
+        </div>
       </div>
       <button className="flex items-center justify-center mt-auto mb-3 hover:scale-110 transition-all">
         <a href="#contact">
