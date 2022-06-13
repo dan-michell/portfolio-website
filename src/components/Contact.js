@@ -32,8 +32,8 @@ function Contact() {
               <span class="text-sm font-medium">Message</span>
               <textarea class="w-full h-32 bg-gray-900 bg-opacity-30 text-gray-300 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
             </div>
-            <div class="mt-8">
-              <button class="font-bold tracking-wide bg-slate-900 bg-opacity-90 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline hover:bg-opacity-70">
+            <div class="mt-8 flex justify-center">
+              <button class="w-[50%] self-center font-bold tracking-wide bg-slate-900 bg-opacity-90 text-gray-100 p-3 rounded-lg focus:outline-none focus:shadow-outline hover:bg-opacity-70">
                 Send
               </button>
             </div>
