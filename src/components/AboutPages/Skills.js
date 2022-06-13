@@ -13,19 +13,19 @@ import {
 function Skills() {
   return (
     <div className="carousel-item w-full" id="skills">
-      <div className="flex flex-col justify-center items-center w-[5%] gap-3">
-        <button className="flex items-center justify-center hover:scale-110 transition-all">
+      <div className="flex justify-center items-center">
+        <button className="flex items-center justify-center hover:scale-110 transition-all ml-3">
           <a href="#about-me">
             <AiOutlineLeftCircle size={44} className="text-gray-300" />
           </a>
         </button>
       </div>
-      <div className="flex flex-col items-center gap-8 w-[95%]">
+      <div className="flex flex-col items-center gap-8 w-full">
         <div className="ml-[15%] mt-[12vh] text-gray-200 w-full">
           <h1 className="font-medium text-7xl mb-3">Skills.</h1>
           <h3 className="font-light text-gray-400 text-3xl">Technologies I have been working with recently.</h3>
         </div>
-        <div className="w-full flex flex-col mt-14 gap-14">
+        <div className="w-full flex flex-col mt-[8vh] gap-14">
           <div className="w-full flex justify-around">
             <div className="flex flex-col items-center justify-center">
               <button className="flex items-center justify-center hover:scale-110 transition-all">

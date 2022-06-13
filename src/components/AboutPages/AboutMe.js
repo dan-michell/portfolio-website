@@ -3,7 +3,7 @@ import { AiOutlineRightCircle } from "react-icons/ai";
 function AboutMe() {
   return (
     <div className="carousel-item w-full flex" id="about-me">
-      <div className="flex flex-col items-center gap-8 w-[95%]">
+      <div className="flex flex-col items-center gap-8">
         <div className="ml-[15%] mt-[12vh] text-gray-200 w-full">
           <h1 className="font-medium text-7xl mb-3">About me.</h1>
           <h3 className="font-light text-gray-400 text-3xl">Who am I?</h3>
@@ -33,8 +33,8 @@ function AboutMe() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center w-[5%] gap-3">
-        <button className="flex items-center justify-center hover:scale-110 transition-all">
+      <div className="flex justify-center items-center">
+        <button className="flex items-center justify-center hover:scale-110 transition-all mr-3">
           <a href="#skills">
             <AiOutlineRightCircle size={44} className="text-gray-300" />
           </a>
