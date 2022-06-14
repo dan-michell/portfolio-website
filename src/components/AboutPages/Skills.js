@@ -1,5 +1,6 @@
 import {
   SiDeno,
+  SiGit,
   SiJavascript,
   SiJest,
   SiNodedotjs,
@@ -24,7 +25,7 @@ function Skills() {
                 <SiReact size={94} className="text-gray-300" />
               </a>
             </button>
-            <p className="mt-1 text-lg ">React JS</p>
+            <p className="mt-1 text-lg ">React / React Native</p>
           </div>
           <div className="flex flex-col items-center justify-center">
             <button className="flex items-center justify-center hover:scale-110 transition-all">
@@ -49,6 +50,14 @@ function Skills() {
               </a>
             </button>
             <p className="mt-1 text-lg ">PostgreSQL</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <button className="flex items-center justify-center hover:scale-110 transition-all">
+              <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                <SiGit size={94} className="text-gray-300" />
+              </a>
+            </button>
+            <p className="mt-1 text-lg ">Git</p>
           </div>
         </div>
         <div className="w-full flex justify-around">

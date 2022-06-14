@@ -7,7 +7,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div className="h-screen overflow-y-scroll snap-y snap-mandatory bg-gradient-to-r from-slate-900 to-blue-900 scroll-smooth">
+    <div className="h-screen overflow-y-scroll snap-y snap-mandatory bg-slate-900 scroll-smooth">
       <section className="h-screen w-screen snap-center" id="home">
         <div className="h-screen flex items-center flex-col justify-start">
           <HeaderTwo />
