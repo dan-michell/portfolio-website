@@ -15,8 +15,20 @@ function AboutMe() {
         <div className="flex items-center w-[60%]">
           <p className="text-xl font-light leading-relaxed text-gray-300">
             Thank you for taking the time to look at my website! I'm Dan, a junior fullstack software engineer based
-            near London. I graduated with a degree in Mechanical Engineering in 2021 .take a look at a brief overview of
-            my{" "}
+            near London. Although only recently entering the field of software engineering by securing a role as a
+            Junior Technology Consultant @{" "}
+            <span className="font-semibold hover:underline" target="_blank" rel="noreferrer">
+              <a href="https://www.sigmalabs.co.uk/">Sigma Labs</a>
+            </span>{" "}
+            I feel I have found my natural passion.
+            <br />
+            <br />
+            Having completed the 3 month training program I have had experience with applying a variety of technologies
+            to facilitate full-stack development. I am extremely excited to put these into practice in industry and also
+            expand my knowledge of the vast array of interesting and inspiring technologies.
+            <br />
+            <br />
+            Take a look at a brief overview of my{" "}
             <span>
               <a href="#skills" className="font-semibold hover:underline">
                 skills
