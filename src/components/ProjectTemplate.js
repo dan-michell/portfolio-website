@@ -1,6 +1,5 @@
 function ProjectTemplate(props) {
-  const { name, description, briefDesc, technologies, githubFrontend, githubBackend, deployed, images } =
-    props.projectInfo;
+  const { name, description, briefDesc, technologies, githubFrontend, githubBackend, deployed } = props.projectInfo;
   return (
     <div class="carousel-item w-full">
       <div className="text-gray-200 w-full h-full">
