@@ -1,4 +1,3 @@
-import { AiOutlineLeftCircle } from "react-icons/ai";
 import {
   SiDeno,
   SiJavascript,

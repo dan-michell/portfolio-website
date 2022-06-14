@@ -12,7 +12,7 @@ function Links(props) {
       <a href="https://github.com/dan-michell" target="_blank" rel="noreferrer">
         <BsGithub size={32} className="text-gray-300 hover:scale-110 transition-all" />
       </a>
-      <a href="#" target="_blank" rel="noreferrer">
+      <a href="https://google.com" target="_blank" rel="noreferrer">
         <BsFillFileEarmarkPersonFill size={32} className="text-gray-300 hover:scale-110 transition-all" />
       </a>
       <a href="https://www.codewars.com/users/Danjm" target="_blank" rel="noreferrer">
