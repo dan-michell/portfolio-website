@@ -13,16 +13,7 @@ export const projectData = [
     deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
     images: [],
   },
-  {
-    name: "Minimal Notes",
-    description: `Under Development`,
-    briefDesc: "Simple, fast, easy to use note taking app.",
-    technologies: "React Native, React Navigation, Native Base, Node, Express, PostgreSQL.",
-    githubFrontend: "https://github.com/Sigma-Labs-XYZ/nutribud-frontend",
-    githubBackend: "https://github.com/dan-michell/nutribud-backend",
-    deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
-    images: [],
-  },
+
   {
     name: "Social Network Website",
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, libero iste quod quibusdam maxime
@@ -48,6 +39,16 @@ export const projectData = [
     technologies: "React JS, Tailwind CSS, Deno, PostgreSQL.",
     githubFrontend: "https://github.com/dan-michell/world-bank-frontend",
     githubBackend: "https://github.com/dan-michell/world-bank-backend",
+    deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
+    images: [],
+  },
+  {
+    name: "Minimal Notes",
+    description: `Under Development`,
+    briefDesc: "Simple, fast, easy to use note taking app.",
+    technologies: "React Native, React Navigation, Native Base, Node, Express, PostgreSQL.",
+    githubFrontend: "https://github.com/Sigma-Labs-XYZ/nutribud-frontend",
+    githubBackend: "https://github.com/dan-michell/nutribud-backend",
     deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
     images: [],
   },

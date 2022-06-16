@@ -7,8 +7,8 @@ function LandingContent(props) {
 
   return (
     <div className="flex flex-col items-center h-full">
-      <div className="w-screen">
-        <div className="mt-[16vh] ml-[22vw] relative text-gray-200 inline-block">
+      <div className="carousel w-screen">
+        <div className="mt-[16vh] ml-[22vw] relative text-gray-200 inline-block carousel-item">
           <div
             className={`animate-wave text-7xl w-20 origin-bottom-right absolute top-[-45px] left-[-60px] ${
               wave ? "opacity-100 transition-opacity duration-500" : "opacity-0 transition-opacity duration-700"
