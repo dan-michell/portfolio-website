@@ -16,11 +16,7 @@ function Work() {
         <div class="carousel-item w-full flex flex-col items-center justify-center gap-10">
           <div>
             <h1 className="font-medium text-8xl mb-3">My Work.</h1>
-            <h3 className="font-light text-gray-400 text-4xl">
-              Personal and professional projects,
-              <br />
-              ordered by scale.
-            </h3>
+            <h3 className="font-light text-gray-400 text-4xl">Personal and professional projects.</h3>
           </div>
           <div className="flex justify-center items-center gap-5 mt-10">
             <h1 className="text-4xl">Take a look...</h1>

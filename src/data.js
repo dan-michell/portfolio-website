@@ -1,55 +1,43 @@
 export const projectData = [
   {
     name: "Nutribud",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, libero iste quod quibusdam maxime
-              recusandae odit eveniet, aspernatur culpa provident error molestiae vitae corporis in vero est! Beatae,
-              ipsum voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, libero iste quod quibusdam maxime
-              recusandae odit eveniet, aspernatur culpa provident error molestiae vitae corporis in vero est! Beatae,
-              ipsum voluptatibus.`,
+    description: `Created by a group of four engineers for the Sigma Labs final project stint, we decided on creating a nutrition tracker to help people towards a healthier lifestyle. We wanted it to be fast and easy to scan and track items and implemented multiple machine learning based APIs to carry this out. This included speech-to-text, and natural language processing to search for items based on text and computer vision to recognise barcodes of products. A complete RESTful backend API was created using Node and Express which offered an incredible learning experience into the workings of commercial applications.`,
     briefDesc: "An intuitive, accessible nutrition tracker.",
     technologies: "React JS, MaterialUI, Node, Express, PostgreSQL.",
     githubFrontend: "https://github.com/Sigma-Labs-XYZ/nutribud-frontend",
     githubBackend: "https://github.com/dan-michell/nutribud-backend",
     deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
-    images: [],
+    images: ["/nutribud-dashboard.png", "/nutribud-text-search.png", "/nutribud-goals.png"],
   },
 
   {
     name: "Social Network Website",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, libero iste quod quibusdam maxime
-              recusandae odit eveniet, aspernatur culpa provident error molestiae vitae corporis in vero est! Beatae,
-              ipsum voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, libero iste quod quibusdam maxime
-              recusandae odit eveniet, aspernatur culpa provident error molestiae vitae corporis in vero est! Beatae,
-              ipsum voluptatibus.`,
+    description: `Started as a Sigma Labs coursework piece and continued in my free time, this Social Network application took inspiration from websites such as Reddit where users can submit interesting articles/links and then interact with posts by voting and commenting. This was one of my first attempts at creating a proper full stack application, with Deno being used to develop the backend API. A secure login and authentication system was also implemented and with cookies being used to track user sessions it gave a great insight into 'proper' website development.`,
     briefDesc: "Post, comment and vote on other user's stories.",
     technologies: "React JS, Tailwind CSS, Deno, PostgreSQL.",
-    githubFrontend: "https://github.com/dan-michell/Coursework-Backend-Week3",
-    githubBackend: "",
-    deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
+    githubFrontend: "https://github.com/dan-michell/social-network-frontend",
+    githubBackend: "https://github.com/dan-michell/social-network-backend",
+    deployed: "",
     images: [],
   },
   {
     name: "World Bank Indicator Display",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, libero iste quod quibusdam maxime
-              recusandae odit eveniet, aspernatur culpa provident error molestiae vitae corporis in vero est! Beatae,
-              ipsum voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, libero iste quod quibusdam maxime
-              recusandae odit eveniet, aspernatur culpa provident error molestiae vitae corporis in vero est! Beatae,
-              ipsum voluptatibus.`,
+    description: `Completed by a group of three developers at Sigma Labs, we had four days to utilise the World Bank Development Indicators to create a data visualisation and exploration website. Primarily this was great practice in utilising APIs and external react packages such as Tailwind and Chart JS to produce the application. For this project I undertook the role of Project Manager which offered great experience in terms of managing a small team on a coding based project.`,
     briefDesc: "View and compare thousands of development indicators.",
-    technologies: "React JS, Tailwind CSS, Deno, PostgreSQL.",
+    technologies: "React JS, Tailwind CSS, Chart JS, Deno, PostgreSQL.",
     githubFrontend: "https://github.com/dan-michell/world-bank-frontend",
     githubBackend: "https://github.com/dan-michell/world-bank-backend",
-    deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
+    deployed: "",
     images: [],
   },
   {
     name: "Minimal Notes",
-    description: `Under Development`,
+    description: `Started after completing the Sigma Labs training in order to develop my TypeScript skills and explore my interest in mobile app development. I am also yet to find the perfect note taking app for my needs. This one focusses on being quick to get information down when those world changing ideas come around and, offers clear and intuitive note organisation/sorting. Firebase was used as a serverless backend API with the aim of streamlining the development process (and also ended up being a great debugging exercise).`,
     briefDesc: "Simple, fast, easy to use note taking app.",
-    technologies: "React Native, React Navigation, Native Base, Node, Express, PostgreSQL.",
-    githubFrontend: "https://github.com/Sigma-Labs-XYZ/nutribud-frontend",
-    githubBackend: "https://github.com/dan-michell/nutribud-backend",
-    deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
+    technologies: "TypeScript, React Native, React Navigation, Native Base, Firebase",
+    githubFrontend: "https://github.com/dan-michell/minimal-notes",
+    githubBackend: "",
+    deployed: "",
     images: [],
   },
 ];

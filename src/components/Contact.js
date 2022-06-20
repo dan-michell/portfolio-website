@@ -8,11 +8,16 @@ function Contact() {
           <div class="flex flex-col text-gray-300">
             <h2 class="text-4xl md:text-7xl font-medium">Contact me!</h2>
             <div class="text-gray-400 md:mt-5 md:text-2xl mt-2 text-xl">
-              Hate forms? Send me a direct <span class="underline">email</span>
-              <br /> or message me on <span class="underline">linkedin</span>.
+              Hate forms? Send me a direct <br /> message on{" "}
+              <span class="underline">
+                <a href="https://www.linkedin.com/in/dan-michell/" target="_blank" rel="noreferrer">
+                  LinkedIn
+                </a>
+              </span>
+              .
             </div>
           </div>
-          <div className="mt-3">
+          <form className="mt-3" data-netlify="true">
             <div>
               <span class="text-sm font-medium">Full Name</span>
               <input
@@ -37,7 +42,7 @@ function Contact() {
                 Send
               </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
       <button className="flex items-center justify-center mt-auto mb-3 hover:scale-110 transition-all">
