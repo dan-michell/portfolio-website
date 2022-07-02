@@ -7,10 +7,10 @@ function LandingContent(props) {
 
   return (
     <div className="flex flex-col items-center h-full">
-      <div className="carousel w-screen">
-        <div className="mt-[16vh] ml-[22vw] relative text-gray-200 inline-block carousel-item">
+      <div className="carousel w-screen flex justify-center sm:justify-start">
+        <div className="mt-[16vh] md:ml-[22vw] relative text-gray-200 inline-block carousel-item">
           <div
-            className={`animate-wave text-7xl w-20 origin-bottom-right absolute top-[-45px] left-[-60px] ${
+            className={`animate-wave text-7xl w-20 origin-bottom-right absolute sm:top-[-45px] sm:left-[-60px] left-[90px] top-[-40px] ${
               wave ? "opacity-100 transition-opacity duration-500" : "opacity-0 transition-opacity duration-700"
             }`}
           >
@@ -23,14 +23,14 @@ function LandingContent(props) {
             onMouseLeave={(e) => {
               setWave(false);
             }}
-            className="font-semibold text-9xl"
+            className="font-semibold sm:text-9xl text-8xl"
           >
             Hello,
           </h1>
-          <h1 className="font-semibold text-9xl">I'm Dan.</h1>
-          <h3 className=" font-light text-gray-400 text-4xl">
-            Fullstack Software Engineer with a passion for
-            <br /> learning and problem solving.
+          <h1 className="font-semibold sm:text-9xl text-8xl">I'm Dan.</h1>
+          <h3 className="font-light text-gray-400 sm:text-4xl text-xl flex flex-wrap sm:w-auto">
+            Fullstack Software Engineer with a passion
+            <br /> for learning and problem solving.
           </h3>
           <Links />
         </div>
