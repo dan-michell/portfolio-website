@@ -8,19 +8,19 @@ import Work from "./components/Work";
 function App() {
   return (
     <div className="h-screen overflow-y-scroll snap-y snap-mandatory bg-gradient-to-b from-slate-900 to-slate-700 scroll-smooth">
-      <section className="h-screen w-screen snap-center" id="home">
+      <section className="h-screen w-screen snap-center snap-always" id="home">
         <div className="h-screen flex items-center flex-col justify-start">
           <HeaderTwo />
           <LandingContent />
         </div>
       </section>
-      <section className="h-screen w-screen snap-center" id="about">
+      <section className="h-screen w-screen snap-center snap-always" id="about">
         <About />
       </section>
-      <section className="h-screen w-screen snap-center" id="work">
+      <section className="h-screen w-screen snap-center snap-always" id="work">
         <Work />
       </section>
-      <section className="h-screen w-screen snap-center" id="contact">
+      <section className="h-screen w-screen snap-center snap-always" id="contact">
         <Contact />
       </section>
       <Footer />
