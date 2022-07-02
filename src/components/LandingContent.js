@@ -8,9 +8,9 @@ function LandingContent(props) {
   return (
     <div className="flex flex-col items-center h-full">
       <div className="carousel w-screen flex justify-center sm:justify-start">
-        <div className="mt-[16vh] sm:ml-[22vw] relative text-gray-200 carousel-item flex flex-col items-center sm:items-start border-2">
+        <div className="mt-[16vh] sm:ml-[22vw] relative text-gray-200 carousel-item flex flex-col items-center sm:items-start">
           <div
-            className={`animate-wave text-7xl w-20 origin-bottom-right absolute sm:top-[-45px] sm:left-[-60px] left-[90px] top-[-40px] ${
+            className={`animate-wave text-7xl w-20 origin-bottom-right absolute sm:top-[-45px] sm:left-[-60px] left-[110px] top-[-60px] ${
               wave ? "opacity-100 transition-opacity duration-500" : "opacity-0 transition-opacity duration-700"
             }`}
           >
