@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <div className="carousel-item w-full flex flex-col justify-start sm:justify-center" id="about-me">
-      <div className="sm:ml-[10%] text-gray-200 flex flex-col items-center">
+      <div className="sm:ml-[10%] text-gray-200 flex flex-col items-center sm:items-start">
         <h1 className="font-medium text-6xl sm:text-7xl mb-1 mt-3 sm:mb-3 sm:mt-0">About me.</h1>
         <h3 className="font-light text-gray-400 text-xl w-[80%] text-center sm:text-left sm:text-3xl sm:w-auto">
           A bit about my background and experience.
