@@ -8,7 +8,7 @@ function LandingContent(props) {
   return (
     <div className="flex flex-col items-center h-full">
       <div className="carousel w-screen flex justify-center sm:justify-start">
-        <div className="mt-[16vh] md:ml-[22vw] relative text-gray-200 inline-block carousel-item">
+        <div className="mt-[16vh] sm:ml-[22vw] relative text-gray-200 carousel-item flex flex-col items-center sm:items-start border-2">
           <div
             className={`animate-wave text-7xl w-20 origin-bottom-right absolute sm:top-[-45px] sm:left-[-60px] left-[90px] top-[-40px] ${
               wave ? "opacity-100 transition-opacity duration-500" : "opacity-0 transition-opacity duration-700"
@@ -28,7 +28,7 @@ function LandingContent(props) {
             Hello,
           </h1>
           <h1 className="font-semibold sm:text-9xl text-8xl">I'm Dan.</h1>
-          <h3 className="font-light text-gray-400 sm:text-4xl text-xl flex flex-wrap sm:w-auto">
+          <h3 className="font-light text-gray-400 sm:text-4xl text-xl flex flex-wrap text-center sm:text-left sm:w-auto">
             Fullstack Software Engineer with a passion
             <br /> for learning and problem solving.
           </h3>
