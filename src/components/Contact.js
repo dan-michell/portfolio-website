@@ -17,7 +17,7 @@ function Contact() {
               .
             </div>
           </div>
-          <form className="mt-3" netlify>
+          <form className="mt-3" netlify name="contact-form">
             <div>
               <span className="text-sm font-medium">Full Name</span>
               <input
