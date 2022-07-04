@@ -8,6 +8,7 @@ export const projectData = [
     githubBackend: "https://github.com/dan-michell/nutribud-backend",
     deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
     images: ["/nutribud-dashboard.png", "/nutribud-text-search.png", "/nutribud-goals.png"],
+    width: "40",
   },
   {
     name: "Minimal Notes",
@@ -18,6 +19,7 @@ export const projectData = [
     githubBackend: "",
     deployed: "",
     images: ["/notes-login.png", "/notes-create.png", "/notes-swipe.png", "/notes-favorites.png", "/notes-sort.png"],
+    width: "14",
   },
   {
     name: "Social Network Website",
@@ -28,6 +30,7 @@ export const projectData = [
     githubBackend: "https://github.com/dan-michell/social-network-backend",
     deployed: "",
     images: [],
+    width: "40",
   },
   {
     name: "World Bank Indicator Display",
@@ -38,5 +41,6 @@ export const projectData = [
     githubBackend: "https://github.com/dan-michell/world-bank-backend",
     deployed: "",
     images: [],
+    width: "40",
   },
 ];
