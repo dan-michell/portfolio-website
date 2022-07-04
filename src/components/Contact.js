@@ -3,11 +3,11 @@ import { AiOutlineUpCircle } from "react-icons/ai";
 function Contact() {
   return (
     <div className="flex flex-col items-center h-full">
-      <div className="text-gray-200 md:mt-[12vh] mt-[4vh]">
-        <div className="max-w-screen-xl grid grid-cols-1 md:grid-cols-2 md:gap-28 md:px-12 lg:px-16">
+      <div className="text-gray-200 h-full flex items-center">
+        <div className="max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 sm:gap-28 sm:px-12 lg:px-16">
           <div className="flex flex-col text-gray-300">
-            <h2 className="text-4xl md:text-7xl font-medium">Contact me!</h2>
-            <div className="text-gray-400 md:mt-5 md:text-2xl mt-2 text-xl">
+            <h2 className="text-4xl sm:text-7xl font-medium">Contact me!</h2>
+            <div className="text-gray-400 sm:text-2xl mt-2">
               Hate forms? Send me a direct <br /> message on{" "}
               <span className="underline">
                 <a href="https://www.linkedin.com/in/dan-michell/" target="_blank" rel="noreferrer">
@@ -17,7 +17,7 @@ function Contact() {
               .
             </div>
           </div>
-          <form className="mt-3" name="contact-form" method="post">
+          <form className="mt-5 sm:mt-0" name="contact-form" method="post">
             <input type="hidden" name="form-name" value="contact-form" />
             <div>
               <span className="text-sm font-medium">Full Name</span>
