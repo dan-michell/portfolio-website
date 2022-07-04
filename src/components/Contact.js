@@ -24,6 +24,7 @@ function Contact() {
                 className="w-full bg-gray-900 bg-opacity-30 text-gray-300 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
                 placeholder=""
+                name="name-input"
               />
             </div>
             <div className="mt-8">
@@ -31,11 +32,15 @@ function Contact() {
               <input
                 className="w-full bg-gray-900 bg-opacity-30 text-gray-300 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
+                name="email-input"
               />
             </div>
             <div className="mt-8">
               <span className="text-sm font-medium">Message</span>
-              <textarea className="w-full h-32 bg-gray-900 bg-opacity-30 text-gray-300 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+              <textarea
+                name="message-input"
+                className="w-full h-32 bg-gray-900 bg-opacity-30 text-gray-300 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              ></textarea>
             </div>
             <div className="mt-8 flex justify-center">
               <button
