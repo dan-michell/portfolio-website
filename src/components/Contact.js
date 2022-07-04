@@ -44,11 +44,12 @@ function Contact() {
               ></textarea>
             </div>
             <div className="mt-8 flex justify-center">
-              <input
+              <button
                 type="submit"
-                value="Submit"
                 className="w-[50%] self-center font-bold tracking-wide bg-slate-900 bg-opacity-90 text-gray-100 p-3 rounded-lg focus:outline-none focus:shadow-outline hover:bg-opacity-70"
-              />
+              >
+                Submit
+              </button>
             </div>
           </form>
         </div>
