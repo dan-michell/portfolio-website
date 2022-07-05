@@ -7,7 +7,7 @@ export const projectData = [
     githubFrontend: "https://github.com/Sigma-Labs-XYZ/nutribud-frontend",
     githubBackend: "https://github.com/dan-michell/nutribud-backend",
     deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
-    images: ["/nutribud-dashboard.png", "/nutribud-search.png", "/nutribud-barcode.png", "/nutribud-goals.pngcod"],
+    images: ["/nutribud-dashboard.png", "/nutribud-search.png", "/nutribud-barcode.png", "/nutribud-goals.png"],
   },
   {
     name: "Minimal Notes",
