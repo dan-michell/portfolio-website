@@ -5,7 +5,7 @@ function HeaderTwo(props) {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <nav className=" border-b-[1px] border-gray-600 px-2 sm:px-4 py-2.5 sm:w-[75%] w-[90%] mt-3">
+    <nav className="px-2 sm:px-4 py-2.5 sm:w-[75%] w-[90%] mt-3">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center">
           <GoTerminal size={40} className="text-gray-300" />
