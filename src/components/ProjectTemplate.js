@@ -1,5 +1,5 @@
 function ProjectTemplate(props) {
-  const { name, description, briefDesc, technologies, githubFrontend, githubBackend, deployed, images, width } =
+  const { name, description, briefDesc, technologies, githubFrontend, githubBackend, deployed, images } =
     props.projectInfo;
   return (
     <div class="carousel-item w-full">
@@ -13,7 +13,13 @@ function ProjectTemplate(props) {
             <p className="font-semibold text-center md:text-left">{technologies}</p>
             <p class="md:text-xl font-light md:leading-relaxed text-gray-300 md:text-left text-center">{description}</p>
           </div>
-          <div className={`md:w-[${width}%] max-w-[90%] flex flex-col gap-2`}>
+          <div
+            className={
+              name === "Minimal Notes"
+                ? "md:w-[16%] max-w-[90%] flex flex-col gap-2"
+                : "md:w-[40%] max-w-[90%] flex flex-col gap-2"
+            }
+          >
             <div class="carousel rounded-box bg-gray-900 bg-opacity-20 border-2 border-slate-700">
               {images.map((image) => {
                 return (

@@ -8,18 +8,16 @@ export const projectData = [
     githubBackend: "https://github.com/dan-michell/nutribud-backend",
     deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
     images: ["/nutribud-dashboard.png", "/nutribud-search.png", "/nutribud-barcode.png", "/nutribud-goals.pngcod"],
-    width: "40",
   },
   {
     name: "Minimal Notes",
     description: `Started after completing the Sigma Labs training in order to develop my TypeScript skills and explore my interest in mobile app development. I am also yet to find the perfect note taking app for my needs. This one focusses on being quick to write, sort and filter notes. Firebase was used to handle user authentication, note storage and setup a Node/Express serverless backend API using cloud functions.`,
     briefDesc: "Simple, fast, easy to use note taking app.",
     technologies: "TypeScript, React Native, React Navigation, Native Base, Firebase",
-    githubFrontend: "https://github.com/dan-michell/minimal-notes",
+    githubFrontend: "https://github.com/dan-michell/native-notes",
     githubBackend: "",
     deployed: "",
     images: ["/notes-login.png", "/notes-create.png", "/notes-swipe.png", "/notes-favorites.png", "/notes-sort.png"],
-    width: "16",
   },
   {
     name: "Social Network Website",
@@ -30,7 +28,6 @@ export const projectData = [
     githubBackend: "https://github.com/dan-michell/social-network-backend",
     deployed: "",
     images: ["/social-add-post.png", "/social-posts.png", "/social-comments.png", "/social-login.png"],
-    width: "40",
   },
   {
     name: "World Bank Indicator Display",
@@ -41,6 +38,5 @@ export const projectData = [
     githubBackend: "https://github.com/dan-michell/world-bank-backend",
     deployed: "",
     images: ["/bank-search.png", "/bank-graph.png", "/bank-history.png"],
-    width: "40",
   },
 ];
