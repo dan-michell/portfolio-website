@@ -7,7 +7,7 @@ export const projectData = [
     githubFrontend: "https://github.com/Sigma-Labs-XYZ/nutribud-frontend",
     githubBackend: "https://github.com/dan-michell/nutribud-backend",
     deployed: "https://nutribud-frontend.sigmalabs.co.uk/",
-    images: ["/nutribud-dashboard.png", "/nutribud-text-search.png", "/nutribud-goals.png"],
+    images: ["/nutribud-dashboard.png", "/nutribud-search.png", "/nutribud-barcode.png", "/nutribud-goals.pngcod"],
     width: "40",
   },
   {
@@ -19,7 +19,7 @@ export const projectData = [
     githubBackend: "",
     deployed: "",
     images: ["/notes-login.png", "/notes-create.png", "/notes-swipe.png", "/notes-favorites.png", "/notes-sort.png"],
-    width: "14",
+    width: "16",
   },
   {
     name: "Social Network Website",
@@ -29,7 +29,7 @@ export const projectData = [
     githubFrontend: "https://github.com/dan-michell/social-network-frontend",
     githubBackend: "https://github.com/dan-michell/social-network-backend",
     deployed: "",
-    images: [],
+    images: ["/social-add-post.png", "/social-posts.png", "/social-comments.png", "/social-login.png"],
     width: "40",
   },
   {
@@ -40,7 +40,7 @@ export const projectData = [
     githubFrontend: "https://github.com/dan-michell/world-bank-frontend",
     githubBackend: "https://github.com/dan-michell/world-bank-backend",
     deployed: "",
-    images: [],
+    images: ["/bank-search.png", "/bank-graph.png", "/bank-history.png"],
     width: "40",
   },
 ];

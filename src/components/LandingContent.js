@@ -6,7 +6,7 @@ function LandingContent(props) {
   const [wave, setWave] = useState(false);
 
   return (
-    <div className="flex flex-col items-center h-full">
+    <div className="flex flex-col h-full">
       <div className="carousel w-screen flex justify-center sm:justify-start">
         <div className="mt-[16vh] sm:ml-[22vw] relative text-gray-200 carousel-item flex flex-col items-center sm:items-start">
           <div

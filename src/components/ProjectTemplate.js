@@ -9,6 +9,10 @@ function ProjectTemplate(props) {
           <h3 className="font-light text-gray-400 md:text-2xl text-lg text-center md:text-left">{briefDesc}</h3>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center md:h-[60%] w-[95%] md:w-auto">
+          <div className="md:w-[45%] md:mr-[4%] flex flex-col gap-2 mb-5 md:mt-0">
+            <p className="font-semibold text-center md:text-left">{technologies}</p>
+            <p class="md:text-xl font-light md:leading-relaxed text-gray-300 md:text-left text-center">{description}</p>
+          </div>
           <div className={`md:w-[${width}%] max-w-[90%] flex flex-col gap-2`}>
             <div class="carousel rounded-box bg-gray-900 bg-opacity-20 border-2 border-slate-700">
               {images.map((image) => {
@@ -19,7 +23,7 @@ function ProjectTemplate(props) {
                 );
               })}
             </div>
-            <div className="flex md:self-end self-center gap-5 text-gray-400">
+            <div className="flex self-center gap-5 text-gray-400">
               {deployed ? (
                 <a href={deployed} className="hover:scale-110 transition-all" target="_blank" rel="noreferrer">
                   Link
@@ -38,10 +42,6 @@ function ProjectTemplate(props) {
                 ""
               )}
             </div>
-          </div>
-          <div className="md:w-[45%] md:ml-[4%] flex flex-col gap-2 mt-5 md:mt-0">
-            <p className="font-semibold text-center md:text-left">{technologies}</p>
-            <p class="md:text-xl font-light md:leading-relaxed text-gray-300">{description}</p>
           </div>
         </div>
       </div>
