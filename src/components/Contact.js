@@ -1,8 +1,6 @@
-import { AiOutlineUpCircle } from "react-icons/ai";
-
 function Contact() {
   return (
-    <div className="flex flex-col items-center h-full">
+    <div className="flex flex-col items-center justify-center h-screen" id="contact">
       <div className="text-gray-200 h-full flex items-center">
         <div className="max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 sm:gap-28 sm:px-12 lg:px-16">
           <div className="flex flex-col text-gray-300">
@@ -54,11 +52,6 @@ function Contact() {
           </form>
         </div>
       </div>
-      <button className="flex items-center justify-center mt-auto mb-3 hover:scale-110 transition-all">
-        <a href="#home">
-          <AiOutlineUpCircle size={44} className="text-gray-300" />
-        </a>
-      </button>
     </div>
   );
 }
