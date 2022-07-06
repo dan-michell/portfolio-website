@@ -22,12 +22,12 @@ function LandingContent(props) {
             onMouseLeave={(e) => {
               setWave(false);
             }}
-            className="font-semibold sm:text-[170px] text-8xl"
+            className="font-semibold sm:text-[160px] text-8xl"
           >
             Hello!
           </h1>
-          <h1 className="font-semibold sm:text-[170px] text-8xl">I'm Dan.</h1>
-          <h3 className="font-light text-gray-400 sm:text-4xl text-xl flex flex-wrap text-center sm:text-left sm:w-auto">
+          <h1 className="font-semibold sm:text-[160px] text-8xl">I'm Dan.</h1>
+          <h3 className="font-light text-gray-400 sm:text-3xl text-xl flex flex-wrap text-center sm:text-left sm:w-auto">
             Fullstack Software Engineer with a passion
             <br /> for learning and problem solving.
           </h3>

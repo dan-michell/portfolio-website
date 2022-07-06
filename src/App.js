@@ -36,7 +36,7 @@ function App() {
   }, [vantaEffect]);
 
   return (
-    <div className="bg-gradient-to-b from-[#010b19] to-[#011632] h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+    <div className="bg-gradient-to-b from-[#010b19] to-[#01163258] h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
       <section ref={myRef} className="h-screen w-screen snap-center snap-always">
         <div className="h-screen flex items-center flex-col justify-start" id="home">
           <HeaderThree />
