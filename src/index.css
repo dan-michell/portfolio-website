@@ -10,7 +10,3 @@
     @apply relative flex justify-center items-center h-12 w-20 text-gray-200 font-medium hover:text-xl transition-all duration-300 ease-out;
   }
 }
-
-html {
-  scroll-behavior: smooth;
-}

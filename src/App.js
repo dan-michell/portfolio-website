@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Work from "./components/Work";
-import NET from "vanta/src/vanta.net";
+import WAVES from "vanta/src/vanta.waves";
 
 function App() {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -13,10 +13,20 @@ function App() {
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        NET({
+        WAVES({
           el: myRef.current,
-          backgroundColor: 0x010718,
-          color: 0x4f5564,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          shininess: 16.0,
+          waveHeight: 25.0,
+          waveSpeed: 0.35,
+          zoom: 0.7,
+          color: 0x010b19,
         })
       );
     }
@@ -26,7 +36,7 @@ function App() {
   }, [vantaEffect]);
 
   return (
-    <div className="bg-[#010718] h-screen overflow-y-scroll snap-y snap-mandatory">
+    <div className="bg-gradient-to-b from-[#010b19] to-[#011632] h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
       <section ref={myRef} className="h-screen w-screen snap-center snap-always">
         <div className="h-screen flex items-center flex-col justify-start" id="home">
           <HeaderThree />
