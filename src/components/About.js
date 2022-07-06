@@ -1,4 +1,3 @@
-import { AiOutlineDownCircle } from "react-icons/ai";
 import AboutMe from "./AboutPages/AboutMe";
 import Skills from "./AboutPages/Skills";
 
