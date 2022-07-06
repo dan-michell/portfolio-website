@@ -15,11 +15,9 @@ export default function HeaderThree() {
         <label tabindex="0" className="btn btn-ghost btn-circle avatar">
           <BsThreeDots size={24} />
         </label>
-        <ul tabindex="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+        <ul tabindex="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-[#0a0c0e] rounded-box w-52">
           <li>
-            <a href="#about" className="justify-between">
-              About
-            </a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="#work">Work</a>
