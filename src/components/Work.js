@@ -1,4 +1,3 @@
-import { AiOutlineDownCircle } from "react-icons/ai";
 import { MdOutlineSwipe } from "react-icons/md";
 import ProjectTemplate from "./ProjectTemplate";
 import { projectData } from "../data";
