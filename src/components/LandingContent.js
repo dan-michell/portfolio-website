@@ -1,4 +1,3 @@
-import { AiOutlineDownCircle } from "react-icons/ai";
 import { useState } from "react";
 import Links from "./Links";
 

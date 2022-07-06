@@ -15,7 +15,7 @@ function App() {
         TOPOLOGY({
           el: myRef.current,
           backgroundColor: 0x010718,
-          color: 0x9299aa,
+          color: 0x656d81,
         })
       );
     }
