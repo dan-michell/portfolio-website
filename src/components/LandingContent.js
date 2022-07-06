@@ -35,11 +35,6 @@ function LandingContent(props) {
           <Links />
         </div>
       </div>
-      <button className="flex items-center justify-center mt-auto mb-3 hover:scale-110 transition-all">
-        <a href="#about">
-          <AiOutlineDownCircle size={44} className="text-gray-300" />
-        </a>
-      </button>
     </div>
   );
 }
