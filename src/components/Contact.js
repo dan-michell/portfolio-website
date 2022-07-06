@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen" id="contact">
       <div className="text-gray-200 h-full flex items-center">
         <div className="max-w-screen-xl grid grid-cols-1 sm:grid-cols-2 sm:gap-28 sm:px-12 lg:px-16">
           <div className="flex flex-col text-gray-300">

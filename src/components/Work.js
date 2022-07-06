@@ -10,7 +10,7 @@ function Work() {
   }
 
   return (
-    <div className="flex flex-col items-center h-full">
+    <div className="flex flex-col items-center h-full" id="work">
       <div class="w-full h-[100vh] carousel rounded-box bg-opacity-20 text-gray-300">
         <div class="carousel-item w-full flex flex-col items-center justify-center gap-10">
           <div className="flex flex-col justify-center items-center">
