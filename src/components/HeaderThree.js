@@ -4,7 +4,7 @@ import { GoTerminal } from "react-icons/go";
 
 export default function HeaderThree() {
   return (
-    <div className="navbar px-10">
+    <div className="navbar sm:px-10">
       <div className="flex-1">
         <div className="flex items-center">
           <GoTerminal size={40} className="text-gray-300" />

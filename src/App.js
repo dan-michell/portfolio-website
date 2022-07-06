@@ -26,16 +26,22 @@ function App() {
   }, [vantaEffect]);
 
   return (
-    <div className="bg-[#010718]">
-      <div ref={myRef}>
+    <div className="bg-[#010718] h-screen overflow-y-scroll snap-y snap-mandatory">
+      <section ref={myRef} className="h-screen w-screen snap-center snap-always">
         <div className="h-screen flex items-center flex-col justify-start" id="home">
           <HeaderThree />
           <LandingContent />
         </div>
-      </div>
-      <About />
-      <Work />
-      <Contact />
+      </section>
+      <section className="h-screen w-screen snap-center snap-always" id="about">
+        <About />
+      </section>
+      <section className="h-screen w-screen snap-center snap-always" id="about">
+        <Work />
+      </section>
+      <section className="h-screen w-screen snap-center snap-always" id="about">
+        <Contact />
+      </section>
       <Footer />
     </div>
   );
