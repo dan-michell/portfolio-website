@@ -4,6 +4,7 @@ import {
   SiGit,
   SiJavascript,
   SiJest,
+  SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
   SiReact,
@@ -100,6 +101,14 @@ function Skills() {
             </a>
           </button>
           <p className="mt-1 text-lg ">Jest</p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <button className="flex items-center justify-center hover:scale-110 transition-all">
+            <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+              <SiNextdotjs size={94} className="text-gray-300" />
+            </a>
+          </button>
+          <p className="mt-1 text-lg ">NextJS</p>
         </div>
       </div>
     </div>
