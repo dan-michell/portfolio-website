@@ -38,7 +38,7 @@ function AboutMe() {
                 brief overview
               </a>
             </span>{" "}
-            of some technologies I have been working with.
+            of some technologies I have been working with recently.
           </p>
         </div>
       </div>
